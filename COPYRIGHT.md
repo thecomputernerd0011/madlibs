@@ -1,0 +1,1 @@
+"Copyright (c) 2026 Michael John Aiello. All Rights Reserved. This content is for viewing and running code purposes only. No part of this repository may be reproduced, copied, or modified for any use except for educational without express permission."
