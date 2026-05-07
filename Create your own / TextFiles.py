@@ -38,7 +38,7 @@ def parse_and_replace_file(input_file, output_file=None):
     
     # Common adjective patterns
     adjective_patterns = [
-        r'\b(good|bad|big|small|hot|cold|fast|slow|happy|sad|beautiful|ugly|strong|weak|smart|stupid|kind|mean|nice|rude|clean|dirty|new|old|young|short|tall|heavy|light|hard|soft|wet|dry|sweet|bitter|sour|salty|red|blue|green|yellow|white|black|brown|pink|purple|orange|grey|dark|bright|quiet|loud|quick|slow|clever|dumb|brave|scared|angry|calm|gentle|rough|smooth|sharp|dull|bitter|sweet|salty|bitter|cheap|expensive|rich|poor|thick|thin|wide|narrow|deep|shallow|early|late|easy|difficult|simple|complex|rare|common|unique|normal|strange|special|ordinary|extraordinary|excellent|awful|wonderful|terrible|amazing|boring|fantastic|horrible|lovely|ugly|pleasant|unpleasant|delicious|disgusting|comfortable|uncomfortable|convenient|inconvenient|interesting|dull|exciting|boring|funny|serious|silly|wise|foolish|honest|dishonest|loyal|disloyal|faithful|unfaithful|courageous|cowardly|generous|selfish|humble|proud|modest|arrogant)\b',
+        r'\b(good|bad|big|small|hot|cold|fast|slow|happy|sad|beautiful|ugly|strong|weak|smart|stupid|kind|mean|nice|rude|clean|dirty|new|old|young|short|tall|heavy|light|hard|soft|wet|dry|sweet|bitter|sour|salty|red|blue|green|yellow|white|black|brown|pink|purple|orange|grey|dark|bright|quiet|loud|quick|slow|clever|dumb|brave|scared|angry|calm|gentle|rough|smooth|sharp|dull|bitter|sweet|salty|bitter|cheap|expensive|rich|poor|thick|thin|wide|narrow|deep|shallow|early|late|easy|difficult|simple|complex|rare|common|unique|normal|strange|special|ordinary|extraordinary|excellent|awful|wonderful|terrible|amazing|boring|fantastic|horrible|lovely|ugly|pleasant|unpleasant|delicious|disgusting|comfortable|uncomfortable|convenient|inconvenient|interesting|dull|exciting|boring|funny|serious|silly|wise|foolish|honest|dishonest|loyal|disloyal|faithful|unfaithful|courageous|cowardly|generous|selfish|humble|proud|modest|arrogant|yellow|blue|red|glitterly)\b',
         r'\w+(ful|less|able|ible|ous|ious|ious|al|ic|ical)$'  # -ful, -less, -able endings
     ]
     
@@ -130,7 +130,7 @@ def main():
     
     if result:
         print("\n" + "=" * 60)
-        print("MODIFIED TEXT:")
+        print("Your MAd Lib:")
         print("=" * 60)
         print(result)
         print("=" * 60)
