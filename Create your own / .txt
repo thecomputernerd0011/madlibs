@@ -18,7 +18,7 @@ def parse_and_replace_file(input_file, output_file=None):
         with open(input_file, 'r', encoding='utf-8') as f:
             text = f.read()
     except FileNotFoundError:
-        print(f"Error: File '{input_file}' not found.")
+        print(f"Error: File '{input_file}' not found. Self destructing in 5 seconds.")
         return None
     
     # Dictionary to store replacements for repeated words
