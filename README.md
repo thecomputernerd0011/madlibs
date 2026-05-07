@@ -1,1 +1,1 @@
-# MadLibs
+# Madlibs of the glyphicmaster series as well as creating your own madlibs
